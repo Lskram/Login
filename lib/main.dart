@@ -97,7 +97,7 @@ class _LoginPageState extends State<LoginPage> {
                 ElevatedButton(
                   child: Text(_isLogin ? 'เข้าสู่ระบบ' : 'สมัครสมาชิก'),
                   style: ElevatedButton.styleFrom(
-                    primary: Colors.red,
+                    backgroundColor: Colors.red,
                     padding: EdgeInsets.symmetric(horizontal: 50, vertical: 15),
                   ),
                   onPressed: () {
